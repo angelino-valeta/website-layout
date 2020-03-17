@@ -6,12 +6,40 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1.0">
 	<title>Web Site Layout</title>
 	<style>
-	
+		*{box-sizing: border-box;}
+		body{margin: 0;}
+		.header{
+			padding: 20px;
+			text-align: center;
+			background-color: #F9F9F9;
+		}
+		.nav {
+			overflow: auto;
+			background-color: #111;
+		}
+		.nav ul{
+			margin: 0;
+			padding:0;
+			list-style-type: none;
+		}
+		.nav li{
+			float: left;
+		}
+		.nav li a{
+			display: inline-block;
+			color: #fff;
+			padding: 12px 14px;
+			text-decoration: none;
+		}
+		.nav li a:hover{
+			color: #111;
+			background-color: #F9F9F9;
+		}
 	</style>
     </head>
     <body>
     	
-	<div>
+	<div class="header">
 	    <h1>Header</h1>
 	    <p>Resize the browser window to see the responsive effect.</p>
 	</div>
