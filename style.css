@@ -86,3 +86,24 @@ main{
 	clear: both;
 	display: table;
 }
+
+@media screen and (max-width: 600px){
+	.col-right, .col-left{
+		width: 100%;
+	}
+	.col-right{
+		padding:0;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.topnav{
+		position: relative;
+	}
+	.topnav li, .topnav .right{
+		float: none;
+	}
+	.topnav li a{
+		display: block;
+	}
+}
