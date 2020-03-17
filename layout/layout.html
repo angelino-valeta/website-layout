@@ -42,6 +42,39 @@
 			text-align: center;
 			background-color: #ddd;
 		}
+		.container{
+			margin: 8px 0;
+		}
+		.row{
+			padding: 8px 0;
+		}
+		.col-full{
+			padding: 26px;
+			background-color: #F1F1F1;
+		}
+
+		.clearfix::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.column {
+			padding: 8px 0;
+			
+		}
+		.column .col{
+		 	width: 33.33%;	
+			float: left;
+		}
+		
+		.column .content{
+			background-color: #F1F1F1;
+			height: 200px;
+		}
+		.column .medium{
+			padding: 0 8px;
+		}
+
 	</style>
     </head>
     <body>
@@ -62,14 +95,21 @@
 	        <div class="row">
 			<div class="col-full"></div>
 		</div>
-	        <div>
-	    	    <div class="col"></div>
-		    <div class="col"></div>
-		    <div class="col"></div>
+		    <div class="column clearfix">	
+	    	    	<div class="col">
+				<div class="content"></div>
+			</div>
+		    	<div class="col medium">
+				<div class="content"></div>
+			</div>
+		    	<div class="col">
+				<div class="content"></div>
+			</div>
+		    </div>
+	   
+	    	<div class="row">
+	    	    <div class="col-full"></div>
 	    	</div>
-	    </div>
-	    <div class="row">
-	    	<div class="col-full"></div>
 	    </div>
 	</main>
 	
