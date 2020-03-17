@@ -72,7 +72,28 @@
 			height: 200px;
 		}
 		.column .medium{
-			padding: 0 8px;
+			padding: 0 16px;
+		}
+
+		@media screen and (max-width: 600px){
+			.container, .row{
+				padding: 0;
+			}
+			.column .col{
+				width: 100%;
+				padding: 6px 0;
+			}
+			.medium{
+			}
+		}
+
+		@media screen and (max-width: 400px){
+			.topnav li{
+				float: none;
+			}
+			.topnav li a{
+				display: block;	
+			}
 		}
 
 	</style>
