@@ -46,3 +46,9 @@ body{
     flex: 70%;
     padding: 16px;
 }
+
+.footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 30px;  
+}
