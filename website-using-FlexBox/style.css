@@ -61,6 +61,9 @@ body{
 }
 
 @media screen and (max-width: 600px){
+    .nav-top{
+        flex-direction: column;
+    }
     .main{
         flex-direction: column;
     }
