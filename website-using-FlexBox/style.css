@@ -29,3 +29,20 @@ body{
 .main{
     display: flex;
 }
+
+.side{
+    flex: 30%;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+.fakeimg{
+    padding: 20px;
+    background-color: #aaa;
+    height: 200px;
+}
+
+.main-content{
+    flex: 70%;
+    padding: 16px;
+}
