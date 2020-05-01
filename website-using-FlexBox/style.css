@@ -52,3 +52,10 @@ body{
     text-align: center;
     padding: 25px;  
 }
+
+@media screen and (max-width: 800px){
+    .main{
+        flex-direction: row-reverse;
+    }
+    
+}
